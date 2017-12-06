@@ -1,8 +1,3 @@
-.donate{
-  text-align: center;
-  padding-bottom: 30px;
-}
-
 .body-title{
   font-size: 70px;
   text-align: center;
@@ -13,9 +8,9 @@
 }
 
 .body-text{
-  font-size: 32px;
+  font-size: 30px;
   text-align: center;
-  margin: 80px;
+  margin:40px;
   padding-bottom: 40px;
 }
 
@@ -24,10 +19,10 @@
   background-size: 100%;
   text-align: center;
   padding: 0px;
-  padding-top: 0px;
 }
 
 #my-hero{
+
 }
 
 .hero-image{
@@ -39,19 +34,16 @@
 .jumbotron{
   background-color: rgb(44, 104, 173);
   color: white;
-  padding: 5px;
-  padding-top: 15px;
+  padding: 10px ;
 }
 
 .jumbotron-text{
   text-align: center;
   font-size: 50px;
-  padding: 0px;
-  padding-top: 0px;
 }
 
 .full {
-  width: 100%;
+    width: 100%;
 }
 .gap {
 	height: 30px;
@@ -172,8 +164,4 @@
 	font-size: 16px;
 	margin: 0 0 0 5px;
 	color: #EDEFF1 !important;
-}
-
-.footer{
-  text-align: center;
 }

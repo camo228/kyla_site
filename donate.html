@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
@@ -34,6 +36,40 @@
   </div>
 </div>
 
+<div class="body-title">
+  Why Donate to KYLA?
+</div>
+<div class="body-text">
+  <p>Kentucky Lawyers for the Arts has one mission: to support the Kentucky arts community by providing referrals to attorneys that are willing to offer pro bono legal services to qualifying artists and arts organizations.</p>
+  <p></p>
+  <h1>Join our team in our efforts to cultivate art in Kentucky and click the "Donate" button below!</h1>
+</div>
+
+<div class="donate"
+  <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+
+      <!-- Identify your business so that you can collect the payments. -->
+      <input type="hidden" name="business"
+          value="donations@kcparkfriends.org">
+
+      <!-- Specify a Donate button. -->
+      <input type="hidden" name="cmd" value="_donations">
+
+      <!-- Specify details about the contribution -->
+      <input type="hidden" name="item_name" value="Friends of the Park">
+      <input type="hidden" name="item_number" value="Fall Cleanup Campaign">
+      <input type="hidden" name="currency_code" value="USD">
+
+      <!-- Display the payment button. -->
+      <input type="image" name="submit"
+      src="https://www.paypalobjects.com/webstatic/en_US/i/btn/png/btn_donate_92x26.png"
+      alt="Donate">
+      <img alt="" width="1" height="1"
+      src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" >
+
+  </form>
+</div>
+
 <footer>
     <div class="footer" id="footer">
         <div class="container">
@@ -41,8 +77,7 @@
                 <div class="col-lg-2  col-md-2 col-sm-4 col-xs-6">
                     <h3> CONTACT US </h3>
                     <ul>
-                        <li> <a href="#"> Lorem Ipsum </a> </li>
-                        <li> <a href="#"> Lorem Ipsum </a> </li>
+                        <li> <a href="#"> info@kylawyersforthearts.org </a> </li>
                     </ul>
                 </div>
                 <div class="col-lg-3  col-md-3 col-sm-6 col-xs-12 ">
@@ -61,10 +96,7 @@
                     </ul>
                 </div>
             </div>
-            <!--/.row-->
         </div>
-        <!--/.container-->
     </div>
-    <!--/.footer-->
 </body>
 </html>
